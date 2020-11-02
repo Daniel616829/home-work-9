@@ -88,19 +88,18 @@ h6 {
   border: none;
   background-color: transparent;
   position: absolute;
+  font-size: 25px;
   top: 2px;
   right: 2px;
   bottom: 2px;
   width: 50px;
-  background-image: url(../img/search.png);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  padding: 0;
   cursor: pointer;
 }
 
 .search-form .btn-search:hover {
-  background-color: #e0e9f0;
+  background-color: rgb(170, 175, 180);
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .search-form .form-control {
